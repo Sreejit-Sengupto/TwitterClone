@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter. It's what's happening</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Ubuntu:wght@500&display=swap"
+        rel="stylesheet">
+        <link rel="shortcut icon" href="/twitter.png" type="image/x-icon">
+
+
+    <style>
+        body{
+            background-color: #fffff0;
+        }
+        .main {
+            /* width: 300px; */
+            margin: auto;
+            text-align: center;
+        }
+
+        .main h1 {
+            font-size: 80px;
+            margin-top: 10px;
+        }
+
+        .main h2 {
+            font-size: 40px;
+        }
+
+        .main h3 {
+            margin-top: 60px;
+        }
+
+        .btn {
+            border: 1px solid gainsboro;
+            background-color: white;
+            width: 300px;
+            border-radius: 20px;
+            height: 40px;
+            padding: 2px 4px 2px 4px;
+            font-size: 18px;
+            margin: 4px 0px 4px 0px;
+            font-family: 'Josefin Sans', sans-serif;
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        .iconbtn {
+            width: 20px;
+            margin-right: 4px;
+        }
+
+        .button {
+            display: flex;
+            justify-content: center;
+        }
+
+        .emailbtn {
+            background-color: rgb(29, 155, 240);
+            border: none;
+        }
+
+        .tac {
+            color: rgb(29, 155, 240);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <img src="/twitter.png" alt="twitter icon" class="icon">
+        <h1>Happening now</h1>
+        <h2>Join Twitter today</h2>
+        <button class="btn">
+            <div class="button">
+                <img src="/google-removebg-preview.png" alt="google icon" class="iconbtn">
+                Sign up with Google
+            </div>
+        </button>
+        <br>
+        <button class="btn">
+            <div class="button">
+                <img src="/apple-removebg-preview.png" alt="apple icon" class="iconbtn">
+                Sign up with Apple
+            </div>
+        </button>
+        <p>or</p>
+        <button class="btn emailbtn">Sign up with phone or email</button>
+        <p>By signing up, you agree to the <span class="tac">Terms of service</span> and <span class="tac">Privacy
+                Policy,</span> icluding <span class="tac">Cookie use.</span></p>
+
+        <h3>Already have an account?</h3>
+        <button class="btn" style="color: rgb(29, 155, 240);">Sign in</button>
+    </div>
+</body>
+
+</html>
